@@ -248,7 +248,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #000000 0%, #000000 100%);
+    background-image: linear-gradient(to right, #000000 0%, #062f4f 100%);
 }
 
 .text-color {
@@ -1778,7 +1778,7 @@ footer .copy-right {
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(to bottom right,  #000000 0%, #062f4f 100%);
     width: 48px;
     height: 48px;
 }
