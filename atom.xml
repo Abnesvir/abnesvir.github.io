@@ -18,9 +18,9 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://abnesvir.github.io/2019/10/26/hello-world/"/>
-    <id>https://abnesvir.github.io/2019/10/26/hello-world/</id>
-    <published>2019-10-26T07:56:22.219Z</published>
+    <link href="https://abnesvir.github.io/2019/11/01/hello-world/"/>
+    <id>https://abnesvir.github.io/2019/11/01/hello-world/</id>
+    <published>2019-11-01T10:51:11.596Z</published>
     <updated>2019-10-12T02:18:03.086Z</updated>
     
     <summary type="html">
@@ -44,7 +44,7 @@
     <link href="https://abnesvir.github.io/2019/10/15/ce-shi/"/>
     <id>https://abnesvir.github.io/2019/10/15/ce-shi/</id>
     <published>2019-10-15T03:35:21.000Z</published>
-    <updated>2019-10-30T07:31:49.657Z</updated>
+    <updated>2019-11-01T11:02:18.810Z</updated>
     
     <summary type="html">
     
@@ -52,8 +52,10 @@
       
         
         
-          &lt;img src=&quot;http://pzrre00w7.bkt.clouddn.com/loading.svg&quot; data-original=&quot;http://pzrre00w7.bkt.clouddn.com/images/logo.png&quot;&gt;
-&lt;script&gt;
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
        
         
       
