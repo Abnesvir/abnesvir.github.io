@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://abnesvir.github.io/"/>
-  <updated>2019-10-12T02:18:03.086Z</updated>
+  <updated>2019-11-15T08:50:51.560Z</updated>
   <id>https://abnesvir.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>算法基础</title>
+    <link href="https://abnesvir.github.io/2019/11/15/suan-fa-ji-chu/"/>
+    <id>https://abnesvir.github.io/2019/11/15/suan-fa-ji-chu/</id>
+    <published>2019-11-15T08:42:48.000Z</published>
+    <updated>2019-11-15T08:50:51.560Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;算法基础-上&quot;&gt;&lt;a href=&quot;#算法基础-上&quot; class=&quot;headerlink&quot; title=&quot;算法基础(上)&quot;&gt;&lt;/a&gt;算法基础(上)&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;算法是一组完成任务的指令。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://abnesvir.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="读书笔记" scheme="https://abnesvir.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -44,7 +74,7 @@
     <link href="https://abnesvir.github.io/2019/10/15/ce-shi/"/>
     <id>https://abnesvir.github.io/2019/10/15/ce-shi/</id>
     <published>2019-10-15T03:35:21.000Z</published>
-    <updated>2019-11-01T11:02:18.810Z</updated>
+    <updated>2019-11-15T08:47:37.091Z</updated>
     
     <summary type="html">
     
