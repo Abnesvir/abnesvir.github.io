@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://abnesvir.github.io/"/>
-  <updated>2019-11-15T08:53:58.830Z</updated>
+  <updated>2019-11-20T11:19:00.689Z</updated>
   <id>https://abnesvir.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>算法基础</title>
-    <link href="https://abnesvir.github.io/2019/11/15/suan-fa-ji-chu/"/>
-    <id>https://abnesvir.github.io/2019/11/15/suan-fa-ji-chu/</id>
-    <published>2019-11-15T08:42:48.000Z</published>
-    <updated>2019-11-15T08:53:58.830Z</updated>
+    <title>广泛应用的算法</title>
+    <link href="https://abnesvir.github.io/2019/11/19/guang-fan-ying-yong-de-suan-fa/"/>
+    <id>https://abnesvir.github.io/2019/11/19/guang-fan-ying-yong-de-suan-fa/</id>
+    <published>2019-11-19T11:15:29.000Z</published>
+    <updated>2019-11-20T11:19:00.689Z</updated>
     
     <summary type="html">
     
@@ -29,10 +29,61 @@
       
         
         
-          &lt;h1 id=&quot;算法基础-上&quot;&gt;&lt;a href=&quot;#算法基础-上&quot; class=&quot;headerlink&quot; title=&quot;算法基础(上)&quot;&gt;&lt;/a&gt;算法基础(上)&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;算法是一组完成任务的指令。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2
+          &lt;h1 id=&quot;广泛应用的算法&quot;&gt;&lt;a href=&quot;#广泛应用的算法&quot; class=&quot;headerlink&quot; title=&quot;广泛应用的算法&quot;&gt;&lt;/a&gt;广泛应用的算法&lt;/h1&gt;&lt;h2 id=&quot;散列函数&quot;&gt;&lt;a href=&quot;#散列函数&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="算法" scheme="https://abnesvir.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="读书笔记" scheme="https://abnesvir.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>问题解决技巧</title>
+    <link href="https://abnesvir.github.io/2019/11/18/wen-ti-jie-jue-ji-qiao/"/>
+    <id>https://abnesvir.github.io/2019/11/18/wen-ti-jie-jue-ji-qiao/</id>
+    <published>2019-11-18T11:19:28.000Z</published>
+    <updated>2019-11-20T11:33:50.588Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;分而治之&quot;&gt;&lt;a href=&quot;#分而治之&quot; class=&quot;headerlink&quot; title=&quot;分而治之&quot;&gt;&lt;/a&gt;分而治之&lt;/h1&gt;&lt;h2 id=&quot;分而治之-1&quot;&gt;&lt;a href=&quot;#分而治之-1&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="问题解决技巧" scheme="https://abnesvir.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="读书笔记" scheme="https://abnesvir.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法基础</title>
+    <link href="https://abnesvir.github.io/2019/11/15/suan-fa-ji-chu/"/>
+    <id>https://abnesvir.github.io/2019/11/15/suan-fa-ji-chu/</id>
+    <published>2019-11-15T08:42:48.000Z</published>
+    <updated>2019-11-20T11:20:23.803Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;算法基础&quot;&gt;&lt;a href=&quot;#算法基础&quot; class=&quot;headerlink&quot;
         
       
     
