@@ -5,9 +5,9 @@
   <subtitle>Abnesvir</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://abnesvir.github.io/"/>
+  <link href="https://abnesvir.com/"/>
   <updated>2019-11-22T01:21:17.595Z</updated>
-  <id>https://abnesvir.github.io/</id>
+  <id>https://abnesvir.com/</id>
   
   <author>
     <name>Abnesvir</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>广泛应用的算法</title>
-    <link href="https://abnesvir.github.io/2019/11/19/guang-fan-ying-yong-de-suan-fa/"/>
-    <id>https://abnesvir.github.io/2019/11/19/guang-fan-ying-yong-de-suan-fa/</id>
+    <link href="https://abnesvir.com/2019/11/19/guang-fan-ying-yong-de-suan-fa/"/>
+    <id>https://abnesvir.com/2019/11/19/guang-fan-ying-yong-de-suan-fa/</id>
     <published>2019-11-19T11:15:29.000Z</published>
     <updated>2019-11-22T01:21:17.595Z</updated>
     
@@ -36,17 +36,17 @@
     </summary>
     
     
-      <category term="算法" scheme="https://abnesvir.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="https://abnesvir.com/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="读书笔记" scheme="https://abnesvir.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="https://abnesvir.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>问题解决技巧</title>
-    <link href="https://abnesvir.github.io/2019/11/18/wen-ti-jie-jue-ji-qiao/"/>
-    <id>https://abnesvir.github.io/2019/11/18/wen-ti-jie-jue-ji-qiao/</id>
+    <link href="https://abnesvir.com/2019/11/18/wen-ti-jie-jue-ji-qiao/"/>
+    <id>https://abnesvir.com/2019/11/18/wen-ti-jie-jue-ji-qiao/</id>
     <published>2019-11-18T11:19:28.000Z</published>
     <updated>2019-11-22T01:10:23.087Z</updated>
     
@@ -63,17 +63,17 @@
     </summary>
     
     
-      <category term="问题解决技巧" scheme="https://abnesvir.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%8A%80%E5%B7%A7/"/>
+      <category term="问题解决技巧" scheme="https://abnesvir.com/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%8A%80%E5%B7%A7/"/>
     
     
-      <category term="读书笔记" scheme="https://abnesvir.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="https://abnesvir.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>算法基础</title>
-    <link href="https://abnesvir.github.io/2019/11/15/suan-fa-ji-chu/"/>
-    <id>https://abnesvir.github.io/2019/11/15/suan-fa-ji-chu/</id>
+    <link href="https://abnesvir.com/2019/11/15/suan-fa-ji-chu/"/>
+    <id>https://abnesvir.com/2019/11/15/suan-fa-ji-chu/</id>
     <published>2019-11-15T08:42:48.000Z</published>
     <updated>2019-11-22T01:09:58.585Z</updated>
     
@@ -90,17 +90,17 @@
     </summary>
     
     
-      <category term="算法" scheme="https://abnesvir.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="https://abnesvir.com/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="读书笔记" scheme="https://abnesvir.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="https://abnesvir.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://abnesvir.github.io/2019/11/01/hello-world/"/>
-    <id>https://abnesvir.github.io/2019/11/01/hello-world/</id>
+    <link href="https://abnesvir.com/2019/11/01/hello-world/"/>
+    <id>https://abnesvir.com/2019/11/01/hello-world/</id>
     <published>2019-11-01T10:51:11.596Z</published>
     <updated>2019-10-12T02:18:03.086Z</updated>
     
@@ -122,8 +122,8 @@
   
   <entry>
     <title>测试</title>
-    <link href="https://abnesvir.github.io/2019/10/15/ce-shi/"/>
-    <id>https://abnesvir.github.io/2019/10/15/ce-shi/</id>
+    <link href="https://abnesvir.com/2019/10/15/ce-shi/"/>
+    <id>https://abnesvir.com/2019/10/15/ce-shi/</id>
     <published>2019-10-15T03:35:21.000Z</published>
     <updated>2019-11-15T08:47:37.091Z</updated>
     
@@ -144,12 +144,12 @@
     </summary>
     
     
-      <category term="测试" scheme="https://abnesvir.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="https://abnesvir.com/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
-      <category term="测试" scheme="https://abnesvir.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="https://abnesvir.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="Markdown" scheme="https://abnesvir.github.io/tags/Markdown/"/>
+      <category term="Markdown" scheme="https://abnesvir.com/tags/Markdown/"/>
     
   </entry>
   
