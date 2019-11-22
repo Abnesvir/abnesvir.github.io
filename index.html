@@ -14,7 +14,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Abnesvir</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/50HsBqL2/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -36,7 +36,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="/logo.png" class="logo-img" alt="LOGO">
+                    <img src="/loading.svg" data-original="https://i.postimg.cc/3w5VJqvF/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">Abnesvir</span>
                 </a>
@@ -134,7 +134,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="/logo.png" class="logo-img circle responsive-img">
+        <img src="/loading.svg" data-original="https://i.postimg.cc/3w5VJqvF/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">Abnesvir</div>
         <div class="logo-desc">
@@ -398,8 +398,35 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(http://q1ci0j8bv.bkt.clouddn.com/banner' + new Date().getDay() + '.jpg)');
+    switch (new Date().getDay()) {
+        case 0:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/3r6LxpX8/banner0.jpg)');
+            break;
+        case 1:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/tT4rYNvT/banner1.jpg)');
+            break;   
+        case 2:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/yxJvTYHC/banner2.jpg)');
+            break;    
+        case 3:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/2yPT9Rkb/banner3.jpg)');
+            break;
+        case 4:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/zXgxbB7n/banner4.jpg)');
+            break;
+        case 5:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/76tK7JjN/banner5.jpg)');
+            break;
+        case 6:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/VNRGfVRp/banner6.jpg)');
+            break;
+    }
 </script>
+
+<!-- <script>
+    // 每天切换 banner 图.  Switch banner image every day.（原始版）
+    $('.bg-cover').css('background-image', 'url(http://q1ci0j8bv.bkt.clouddn.com/banner' + new Date().getDay() + '.jpg)');
+</script> -->
 
 
 
@@ -455,7 +482,7 @@
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('http://q1ci0j8bv.bkt.clouddn.com/feature12.jpg');">
+            style="background-image: url('https://i.postimg.cc/HLFxxdtP/feature12.jpg');">
         <div class="container" style="right: 0px;left: 0px;">
             <div class="row">
                 <div class="col s10 offset-s1">
@@ -477,7 +504,7 @@
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('http://q1ci0j8bv.bkt.clouddn.com/feature17.jpg');">
+            style="background-image: url('https://i.postimg.cc/Dy7zmCqF/feature17.jpg');">
         <div class="container" style="right: 0px;left: 0px;">
             <div class="row">
                 <div class="col s10 offset-s1">
@@ -499,7 +526,7 @@
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('http://q1ci0j8bv.bkt.clouddn.com/feature14.jpg');">
+            style="background-image: url('https://i.postimg.cc/GtCmFKVF/feature14.jpg');">
         <div class="container" style="right: 0px;left: 0px;">
             <div class="row">
                 <div class="col s10 offset-s1">
@@ -618,7 +645,7 @@ $(function () {
         volume: Number('0.3'),
         listFolded: 'false' === 'true',
         listMaxHeight: '',
-        audio: JSON.parse('[{"name":"Scarborough Fair","artist":"山田タマル","url":"http://q1ci0j8bv.bkt.clouddn.com/Scarborough%20Fair.mp3","cover":"http://q1ci0j8bv.bkt.clouddn.com/Scarborough%20Fair.jpg"},{"name":"Hanezeve Caradhina","artist":"ft.Takeshi Saito","url":"http://q1ci0j8bv.bkt.clouddn.com/Hanezeve%20Caradhina.mp3","cover":"http://q1ci0j8bv.bkt.clouddn.com/Hanezeve%20Caradhina.jpg"},{"name":"Hacking to the Gate","artist":"いとうかなこ (伊藤加奈子)","url":"http://q1ci0j8bv.bkt.clouddn.com/Hacking%20to%20the%20Gate.mp3","cover":"http://q1ci0j8bv.bkt.clouddn.com/Hacking%20to%20the%20Gate.jpg"},{"name":"だんご大家族","artist":"茶太","url":"http://q1ci0j8bv.bkt.clouddn.com/%E3%81%A0%E3%82%93%E3%81%94%E5%A4%A7%E5%AE%B6%E6%97%8F.mp3","cover":"http://q1ci0j8bv.bkt.clouddn.com/%E3%81%A0%E3%82%93%E3%81%94%E5%A4%A7%E5%AE%B6%E6%97%8F.jpg"},{"name":"空色デイズ","artist":"中川翔子","url":"http://q1ci0j8bv.bkt.clouddn.com/%E7%A9%BA%E8%89%B2%E3%83%87%E3%82%A4%E3%82%BA.mp3","cover":"http://q1ci0j8bv.bkt.clouddn.com/%E7%A9%BA%E8%89%B2%E3%83%87%E3%82%A4%E3%82%BA.jpg"},{"name":"Magia","artist":"Kalafina","url":"http://q1ci0j8bv.bkt.clouddn.com/Magia.mp3","cover":"http://q1ci0j8bv.bkt.clouddn.com/Magia.jpg"}]')
+        audio: JSON.parse('[{"name":"Scarborough Fair","artist":"山田タマル","url":"http://q1ci0j8bv.bkt.clouddn.com/Scarborough%20Fair.mp3","cover":"https://i.postimg.cc/3wTGSrgQ/Scarborough-Fair.jpg"},{"name":"Hanezeve Caradhina","artist":"ft.Takeshi Saito","url":"http://q1ci0j8bv.bkt.clouddn.com/Hanezeve%20Caradhina.mp3","cover":"https://i.postimg.cc/xd3zWrRJ/Hanezeve-Caradhina.jpg"},{"name":"Hacking to the Gate","artist":"いとうかなこ (伊藤加奈子)","url":"http://q1ci0j8bv.bkt.clouddn.com/Hacking%20to%20the%20Gate.mp3","cover":"https://i.postimg.cc/P5ZZQvvM/Hacking-to-the-Gate.jpg"},{"name":"だんご大家族","artist":"茶太","url":"http://q1ci0j8bv.bkt.clouddn.com/%E3%81%A0%E3%82%93%E3%81%94%E5%A4%A7%E5%AE%B6%E6%97%8F.mp3","cover":"https://i.postimg.cc/0Q5wvtWt/image.jpg"},{"name":"空色デイズ","artist":"中川翔子","url":"http://q1ci0j8bv.bkt.clouddn.com/%E7%A9%BA%E8%89%B2%E3%83%87%E3%82%A4%E3%82%BA.mp3","cover":"https://i.postimg.cc/MKn1XFWN/image.jpg"},{"name":"Magia","artist":"Kalafina","url":"http://q1ci0j8bv.bkt.clouddn.com/Magia.mp3","cover":"https://i.postimg.cc/VL2ntWv6/Magia.jpg"}]')
     });
 });
 </script>
@@ -652,7 +679,7 @@ $(function () {
             preload: 'none',
             volume: Number('0.3'),
             video: {
-                url: 'http://q1ci0j8bv.bkt.clouddn.com/04470.Collab.Con.2012-Umika.and.ZEVS1993-Our.Tapes.preview.amvnews.ru.mp4',
+                url: 'http://b/04470.Collab.Con.2012-Umika.and.ZEVS1993-Our.Tapes.preview.amvnews.ru.mp4',
                 pic: '',
                 thumbnails: ''
             }
@@ -675,31 +702,7 @@ $(function () {
     
     
     <div class="col s12 m6" >
-        <div class="post-card" style="background-image: url('http://q1ci0j8bv.bkt.clouddn.com/feature2.jpg')">
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                    <a href="/categories/测试/" class="category">测试</a>
-                    
-                </div>
-                <a href="/2019/10/15/ce-shi/">
-                    <h3 class="post-title">测试</h3>
-                </a>
-                <p class="post-description">
-                    
-                        文章卡片显示内容
-                    
-                </p>
-                <a href="/2019/10/15/ce-shi/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" >
-        <div class="post-card" style="background-image: url('http://q1ci0j8bv.bkt.clouddn.com/feature12.jpg')">
+        <div class="post-card" style="background-image: url('https://i.postimg.cc/HLFxxdtP/feature12.jpg')">
             <div class="post-body">
                 <div class="post-categories">
                     
@@ -714,7 +717,31 @@ $(function () {
                         算法是一组完成任务的指令。
                     
                 </p>
-                <a href="/2019/11/15/suan-fa-ji-chu/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
+                <a href="/2019/11/15/suan-fa-ji-chu/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" >
+        <div class="post-card" style="background-image: url('https://i.postimg.cc/ydSDXkdH/feature2.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                    <a href="/categories/测试/" class="category">测试</a>
+                    
+                </div>
+                <a href="/2019/10/15/ce-shi/">
+                    <h3 class="post-title">测试</h3>
+                </a>
+                <p class="post-description">
+                    
+                        文章卡片显示内容
+                    
+                </p>
+                <a href="/2019/10/15/ce-shi/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -723,7 +750,7 @@ $(function () {
     
     
     <div class="col s12 m6" data-aos="zoom-in-up">
-        <div class="post-card" style="background-image: url('http://q1ci0j8bv.bkt.clouddn.com/feature17.jpg')">
+        <div class="post-card" style="background-image: url('https://i.postimg.cc/Dy7zmCqF/feature17.jpg')">
             <div class="post-body">
                 <div class="post-categories">
                     
@@ -747,7 +774,7 @@ $(function () {
     
     
     <div class="col s12 m6" data-aos="zoom-in-up">
-        <div class="post-card" style="background-image: url('http://q1ci0j8bv.bkt.clouddn.com/feature14.jpg')">
+        <div class="post-card" style="background-image: url('https://i.postimg.cc/GtCmFKVF/feature14.jpg')">
             <div class="post-body">
                 <div class="post-categories">
                     
@@ -792,7 +819,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="http://q1ci0j8bv.bkt.clouddn.com/feature14.jpg" class="responsive-img" alt="广泛应用的算法">
+                            <img src="/loading.svg" data-original="https://i.postimg.cc/GtCmFKVF/feature14.jpg" class="responsive-img" alt="广泛应用的算法">
                             
                             <span class="card-title">广泛应用的算法</span>
                         </div>
@@ -839,7 +866,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="http://q1ci0j8bv.bkt.clouddn.com/feature17.jpg" class="responsive-img" alt="问题解决技巧">
+                            <img src="/loading.svg" data-original="https://i.postimg.cc/Dy7zmCqF/feature17.jpg" class="responsive-img" alt="问题解决技巧">
                             
                             <span class="card-title">问题解决技巧</span>
                         </div>
@@ -886,7 +913,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="http://q1ci0j8bv.bkt.clouddn.com/feature12.jpg" class="responsive-img" alt="算法基础">
+                            <img src="/loading.svg" data-original="https://i.postimg.cc/HLFxxdtP/feature12.jpg" class="responsive-img" alt="算法基础">
                             
                             <span class="card-title">算法基础</span>
                         </div>
@@ -933,7 +960,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="http://q1ci0j8bv.bkt.clouddn.com/feature12.jpg" class="responsive-img" alt="Hello World">
+                            <img src="/loading.svg" data-original="https://i.postimg.cc/HLFxxdtP/feature12.jpg" class="responsive-img" alt="Hello World">
                             
                             <span class="card-title">Hello World</span>
                         </div>
@@ -968,7 +995,7 @@ $(function () {
                         <div class="card-image">
                             
                             
-                            <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="http://q1ci0j8bv.bkt.clouddn.com/feature2.jpg" class="responsive-img" alt="测试">
+                            <img src="/loading.svg" data-original="https://i.postimg.cc/ydSDXkdH/feature2.jpg" class="responsive-img" alt="测试">
                             
                             <span class="card-title">测试</span>
                         </div>
@@ -1235,9 +1262,16 @@ $(function () {
     
 
     
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
 
     
 
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
     
     
@@ -1254,6 +1288,6 @@ $(function () {
                 }, 3e3))
         })
     </script>
-<script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":1}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
 
 </html>

@@ -14,7 +14,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>分类: 测试 | Abnesvir</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/50HsBqL2/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -36,7 +36,7 @@
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
-                    <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="/logo.png" class="logo-img" alt="LOGO">
+                    <img src="/loading.svg" data-original="https://i.postimg.cc/3w5VJqvF/logo.png" class="logo-img" alt="LOGO">
                     
                     <span class="logo-span">Abnesvir</span>
                 </a>
@@ -134,7 +134,7 @@
 
     <div class="mobile-head bg-color">
         
-        <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="/logo.png" class="logo-img circle responsive-img">
+        <img src="/loading.svg" data-original="https://i.postimg.cc/3w5VJqvF/logo.png" class="logo-img circle responsive-img">
         
         <div class="logo-name">Abnesvir</div>
         <div class="logo-desc">
@@ -334,8 +334,35 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    $('.bg-cover').css('background-image', 'url(http://q1ci0j8bv.bkt.clouddn.com/banner' + new Date().getDay() + '.jpg)');
+    switch (new Date().getDay()) {
+        case 0:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/3r6LxpX8/banner0.jpg)');
+            break;
+        case 1:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/tT4rYNvT/banner1.jpg)');
+            break;   
+        case 2:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/yxJvTYHC/banner2.jpg)');
+            break;    
+        case 3:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/2yPT9Rkb/banner3.jpg)');
+            break;
+        case 4:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/zXgxbB7n/banner4.jpg)');
+            break;
+        case 5:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/76tK7JjN/banner5.jpg)');
+            break;
+        case 6:
+            $('.bg-cover').css('background-image', 'url(https://i.postimg.cc/VNRGfVRp/banner6.jpg)');
+            break;
+    }
 </script>
+
+<!-- <script>
+    // 每天切换 banner 图.  Switch banner image every day.（原始版）
+    $('.bg-cover').css('background-image', 'url(http://q1ci0j8bv.bkt.clouddn.com/banner' + new Date().getDay() + '.jpg)');
+</script> -->
 
 
     </div>
@@ -355,20 +382,20 @@
                 
                 
                 
-                <a href="/categories/测试/" title="测试: 1">
+                <a href="/categories/算法/" title="算法: 2">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            style="background-color: #F9EBEA;">测试
-                        <span class="tag-length">1</span>
+                             chip-default "
+                            style="background-color: #F9EBEA;">算法
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/算法/" title="算法: 2">
+                <a href="/categories/测试/" title="测试: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F5EEF8;">算法
-                        <span class="tag-length">2</span>
+                             chip-active "
+                            style="background-color: #F5EEF8;">测试
+                        <span class="tag-length">1</span>
                     </span>
                 </a>
                 
@@ -398,7 +425,7 @@
                         <div class="card-image tag-image">
                             
                             
-                            <img src="http://q1ci0j8bv.bkt.clouddn.com/loading.svg" data-original="http://q1ci0j8bv.bkt.clouddn.com/feature2.jpg" class="responsive-img" alt="测试">
+                            <img src="/loading.svg" data-original="https://i.postimg.cc/ydSDXkdH/feature2.jpg" class="responsive-img" alt="测试">
                             
                             <span class="card-title">测试</span>
                         </div>
@@ -663,9 +690,16 @@ $(function () {
     
 
     
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
 
     
 
+    
+    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
     
     
     
@@ -682,6 +716,6 @@ $(function () {
                 }, 3e3))
         })
     </script>
-<script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":1}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
 
 </html>
